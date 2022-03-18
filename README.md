@@ -17,3 +17,7 @@ Blur.
 Dark gray interface.
 
 Colour circles are made by ofxCv, an openframeword addon. By calculating the RGB value of the corresponding pixel in the real-time image and the difference between adjacent pixels, the outline of the object is found, and circles and rectangles are drawn. Blur is made through shaders. By calling the configured motionAmplifier.h file, the pixels whose RGB changes exceed a certain threshold and their surrounding pixels are enlarged and blurred. The dark grey interface uses the ofxCv plug-in to make the webcam record the previous image and the current image, merge them, and then average the RGB values of each vertical line to achieve this effect.
+
+Video Presentation
+==================
+https://www.youtube.com/watch?v=aj2u1DWyJks
